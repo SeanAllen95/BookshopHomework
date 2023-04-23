@@ -1,0 +1,13 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+      <title>{{ title }} - The Book Shop</title>
+    </head>
+    <body>
+        <ul>
+          <li class="navLink"><a href="/bookshop">Bookshop Home</a></li>
+        </ul>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>

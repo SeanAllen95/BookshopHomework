@@ -1,0 +1,44 @@
+
+body {
+    background-color: rgb(101, 178, 255);
+}
+.navLink{
+    background-color: rgb(101, 178, 255);
+    font-size: 50px;
+    color: azure;
+    margin-left: 20px;
+    padding: 0px;
+    text-decoration: None;
+    list-style-type: none;
+}
+.navLink:visited{
+    text-decoration: none;
+}
+.navLink:hover{
+    text-decoration: underline;
+
+}
+
+body > ul >li > a{
+    background-color: rgb(101, 178, 255);
+    margin: 0px;
+    text-decoration: None;
+
+}
+h1{
+    font-style: italic;
+}
+
+.book-container{
+    background-color: dodgerblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    gap: 20px;
+}
+.book{
+    background-color: aqua;
+}
+.book-info{
+    padding: 10px;
+}
